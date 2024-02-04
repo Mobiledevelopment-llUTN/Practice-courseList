@@ -1,9 +1,11 @@
 /* eslint-disable prettier/prettier */
 import {combineReducers, legacy_createStore} from 'redux';
-import TaskReducer from './reducers/TaskReducer';
+import materiasReducer from './reducers/materiasReducer';
 
 const ConfigureStore = () => {
-    const reducers = combineReducers({Tasks: TaskReducer});
+    const reducers = combineReducers({
+        materias: materiasReducer,
+    });
     const store = legacy_createStore(reducers);
     return store;
 };

@@ -3,8 +3,8 @@ import React from 'react';
 import {View} from 'react-native';
 import {Provider} from 'react-redux';
 
-import TaskList from './src/views/TaskList';
-import TaskRegister from './src/views/TaskRegister';
+import TaskList from './src/views/VwMateriasDisponibles';
+import TaskRegister from './src/views/VwMateriasSeleccionadas';
 import ConfigureStore from './src/components/Store';
 
 const App = () => {
