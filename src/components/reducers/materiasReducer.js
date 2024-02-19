@@ -3,7 +3,7 @@
 import { SELECCIONAR_MATERIA, RETIRAR_MATERIA} from '../actions/materiasActionType';
 
 const INITIAL_STATE = {
-    materiasDisponibles: ['Español', 'Matematicas', 'Ciencias', 'Ingles'],
+    materiasDisponibles: ['Español', 'Matematicas', 'Ciencias', 'Frances'],
     materiasSeleccionadas: [],
 };
 
@@ -32,6 +32,8 @@ const MateriasReducer = (state = INITIAL_STATE, action) => {
 
         default:
         return state;
+
+        //Hola me llamo sebastian
     }
 };
 
